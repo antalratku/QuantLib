@@ -28,6 +28,7 @@
 
 #ifdef QL_ENABLE_SESSIONS
 #    include <boost/thread/shared_mutex.hpp>
+#    include <boost/thread/lock_types.hpp>
 #else
 #    ifdef QL_ENABLE_SINGLETON_THREAD_SAFE_INIT
 #        include <boost/atomic.hpp>
